@@ -11,6 +11,30 @@ The **Photo Editor DEO BPR** is a specialized desktop application designed for s
 
 ---
 
+## Authorization & Getting Started
+
+To ensure secure access, this software requires a one-time machine authorization and an active internet connection for every session.
+
+### 1. Requesting Access
+Before you can use the Photo Editor, you must register your workstation:
+1.  **Install the Auth Tool:** Run the `AuthForm-1.0-win64.msi` installer provided with your package.
+2.  **Submit Request:** Open the installed application and complete the brief authentication form.
+3.  **Notification:** Contact the **Election Office of the O/o District Election Officer, Bishnupur**, to inform them that your request has been submitted.
+4.  **Activation:** Once the O/o DEO, BPR grants access, you will be able to launch and use the Photo Editor immediately.
+
+---
+
+## Important Performance & Connectivity Notes
+
+Please keep the following in mind for a smooth experience:
+
+* **Mandatory Internet Connection:** An active internet connection is **strictly required** every time you launch the software. The application performs a security handshake to verify your authorization before loading the dashboard.
+* **First-Run Delay:** During the very first launch, you may experience a significant lag or delay. This is normal, as the software is performing a one-time setup of the AI models (`u2netp`) and initializing system files.
+* **Launch Handshake:** Because the software performs user authentication every time it runs, there will always be a brief delay at startup before the GUI dashboard appears.
+* **Post-Startup Performance:** Once the dashboard has loaded, the software will run smoothly for the remainder of your session.
+* 
+
+---
 ## How to Use
 
 ### 1. Loading Images
